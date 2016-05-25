@@ -62,7 +62,7 @@ GH-Pages is a good way for you to easly upload your website or project for free,
 
 ![][12]
 
-* I will go with the more arcaic for, copying and pasting 
+* In this example, I will proceed with the more arcaic approach: copying and pasting 
   * Keep in mind that this is just a very simple, easy to implement approach, and its worth doing it to see how GitHub works
   * We will talk about the [desktop client](https://desktop.github.com/) later
 * If you copy and paste, add a name to your initial HMTL file. In this case, as this will be your initial page 

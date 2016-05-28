@@ -1,9 +1,7 @@
-[ 
+{
+        labels: ["Brazil", "China", "India", "Russia", "South Africa", "United Kingdom", "United States"],
+        datasets: [ 
   { 
-    label: ["GDP per capita (current US$)"]
+    label: "GDP per capita (current US$)",
     data: [11726.8, 7590.0, 1581.5, 12735.9, 6483.9, 46297.0, 54629.5 ]
   }
-  ]
-  
-  	
-	

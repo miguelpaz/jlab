@@ -2,71 +2,85 @@
   {
     "index": "Unemployment rate",
     "rate": 4.8,
-    "year": 2001
+    "year": 2001,
+    "dates": "2001-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 5.9,
-    "year": 2002
+    "year": 2002,
+    "dates": "2002-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 6.1,
-    "year": 2003
+    "year": 2003,
+    "dates": "2003-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 5.6,
-    "year": 2004
+    "year": 2004,
+    "dates": "2004-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 5.2,
-    "year": 2005
+    "year": 2005,
+    "dates": "2005-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 4.7,
-    "year": 2006
+    "year": 2006,
+    "dates": "2006-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 4.7,
-    "year": 2007
+    "year": 2007,
+    "dates": "2007-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 5.9,
-    "year": 2008
+    "year": 2008,
+    "dates": "2008-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 9.4,
-    "year": 2009
+    "year": 2009,
+    "dates": "2009-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 9.7,
-    "year": 2010
+    "year": 2010,
+    "dates": "2010-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 9,
-    "year": 2011
+    "year": 2011,
+    "dates": "2011-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 8.2,
-    "year": 2012
+    "year": 2012,
+    "dates": "2012-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 7.4,
-    "year": 2013
+    "year": 2013,
+    "dates": "2013-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 6.2,
-    "year": 2014
+    "year": 2014,
+    "dates": "2014-1"
   }
 ]

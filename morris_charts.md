@@ -7,7 +7,7 @@ The advantage of using this library is that you can customize a lot of aspects o
 
 In this tutorial, you will need to access: 
 
-1. [The example json data](https://raw.githubusercontent.com/miguelpaz/jlab/master/data/example2_country_dates.json) (*compare with the [same data](https://raw.githubusercontent.com/miguelpaz/jlab/master/data/example3_year_column.csv) in CSV format)*
+1. [The example json data](https://raw.githubusercontent.com/miguelpaz/jlab/master/data/example2_country_dates.json)
 2. [The Morris.js library CDN link](http://morrisjs.github.io/morris.js/) - (*this will give access to the code*)
 3. [The configuration options’ page](http://morrisjs.github.io/morris.js/lines.html) (*where you will chose the specs for the graphic*)
 4. And a code editor - preferably an online one where you will see the results in real time. This example will use [JSbin](https://jsbin.com), but you can use [Codepen](http://codepen.io/) our [JSfiddle](https://jsfiddle.net/) as alternatives.

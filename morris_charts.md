@@ -1,7 +1,7 @@
 # Line chart with Morris.js
 
 
-[Morris.js](http://morrisjs.github.io/morris.js/) is a easy to use, free javascript library to create interactive line and bar charts with very little code[^As most similar tools, it is based in the D3.js library, with dependencies in Raphael.js and JQuery]. It was developed by [Olly Smith](https://twitter.com/olly_smith).
+[Morris.js](http://morrisjs.github.io/morris.js/) is an easy to use, free javascript library to create interactive line and bar charts with very little code[^As most similar tools, it is based in the D3.js library, with dependencies in Raphael.js and JQuery]. It was developed by [Olly Smith](https://twitter.com/olly_smith).
 
 The advantage of using this library is that you can customize a lot of aspects of your graphic using just one function an a few [well-documented](http://morrisjs.github.io/morris.js/lines.html) configuration options. Binding the data is also pretty easy, using the [json](http://www.json.org/) format.
 

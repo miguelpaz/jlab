@@ -252,8 +252,9 @@ Just don’t forget to recalculate the average for your *goal* as you have more 
 
 ![MorrisJS chart](https://github.com/miguelpaz/jlab/blob/master/images/chart_morrisjs_5.png?raw=true)
 
+___
 
-###$ Check out the code
+#### Check out the code
 
 [Find the code here, in this JSbin.](https://jsbin.com/mohehow/edit?html,css,js,output)
 

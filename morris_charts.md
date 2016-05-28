@@ -253,6 +253,12 @@ Just don’t forget to recalculate the average for your *goal* as you have more 
 ![MorrisJS chart](https://github.com/miguelpaz/jlab/blob/master/images/chart_morrisjs_5.png?raw=true)
 
 
-### Check out the code
+###$ Check out the code
 
 [Find the code here, in this JSbin.](https://jsbin.com/mohehow/edit?html,css,js,output)
+
+#### Bonus
+
+If you feel you are ready for more, try this code with a function from JQuery to retrieve the data directly from a URL, instead of adding the JSON directly into the file: 
+
+[The new code is here, in this JSbin.](https://jsbin.com/cufoho/edit?html,js,output)

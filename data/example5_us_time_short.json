@@ -2,21 +2,25 @@
   {
     "index": "Unemployment rate",
     "rate": 9,
-    "year": 2011
+    "year": 2011,
+    "dates": "2011-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 8.2,
-    "year": 2012
+    "year": 2012,
+    "dates": "2012-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 7.4,
-    "year": 2013
+    "year": 2013,
+    "dates": "2013-1"
   },
   {
     "index": "Unemployment rate",
     "rate": 6.2,
-    "year": 2014
+    "year": 2014,
+    "dates": "2014-1"
   }
 ]

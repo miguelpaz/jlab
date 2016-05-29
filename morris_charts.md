@@ -234,7 +234,7 @@ Finally, we have to make our chart responsive, so it fits several kinds of scree
 
 Fortunately, Morris allows us to do it rather easily. Just add the following line to the code: `resize: ['true'],` 
 
-This will apply the 100% width to fit the screen. Let’s make it a little bit heigher too: in the HTML, apply the height to 350px, like this: ` <div id="myfirstchart" style="height: 350px;">`
+This will apply the 100% width to fit the screen. Let’s make it a little bit higher too: in the HTML, apply the height to 350px, like this: ` <div id="myfirstchart" style="height: 350px;">`
 
 Your chart will now look like this:
 

@@ -11,7 +11,7 @@ One disadvantage is that the json data must have some specific properties that i
 
 In this tutorial, you will need to access: 
 
-1. [The example json data](https://github.com/miguelpaz/jlab/blob/master/data/example2_country_chartjs_short.json) 
+1. [The example json data](https://github.com/miguelpaz/jlab/blob/master/data/chartjs_example_data_short.json) 
 2. [The ChartJS library CDN link](https://cdnjs.com/libraries/Chart.js) - (*this will give access to the code*)
 3. [The configuration options’ page](http://www.chartjs.org/docs/#bar-chart) (*where you will chose the specs for the graphic*)
 4. And a code editor - preferably an online one where you will see the results in real time. This example will use [JSbin](https://jsbin.com), but you can use [Codepen](http://codepen.io/) our [JSfiddle](https://jsfiddle.net/) as alternatives.
@@ -86,7 +86,7 @@ ___
 
 In your javascript input, you might have noticed the **data** line. That is where your chart’s lines are coming from. That field is where you **bind** the data! ChartJS uses json format, but it has its own specifications as how to structure data, which at first may be not so straightforward, but allows the tool to have more customization[^More advanced users can use JQuery to parse json and .csv files]. 
 
-Lets use as example this [simple dataset](https://github.com/miguelpaz/jlab/blob/master/data/example2_country_chartjs_short.json), which show us the 2014 per capita GDP of seven countries. 
+Lets use as example this [simple dataset](https://github.com/miguelpaz/jlab/blob/master/data/chartjs_example_data_short.json), which show us the 2014 per capita GDP of seven countries. 
 
 Copy and past the text after the `dataset:` in your javascript. It will result in something like this:
 

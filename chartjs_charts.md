@@ -197,33 +197,31 @@ You code will look like this:
 Now, we are ready to add some other customizations here, like fonts, grids and other cool stuff. 
 
 ___
-##### Interlude, do get a font
+##### Interlude to get a font
 Go to [Google Fonts](https://www.google.com/fonts) to fetch some nice typography. We will use [*Roboto*](https://www.google.com/fonts#QuickUsePlace:quickUse) - make sure you select the light (400) and bold (700) types of font (for body and header). 
 
 If you want Roboto, copy and paste this link into the `<head>` of your HTML: `<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>` 
 
 ___
 
-Lets add some smooth animation right out of the box, so you chart get even more atention. Lets add a 3 seconds (or 3,000 miliseconds) animation: `animation: {duration: 3000},`
+Lets add some smooth animation right out of the box, so your chart get even more atention. Lets add a 3 seconds (or 3,000 milliseconds) animation: `animation: {duration: 3000},`
 
 Now, lets configure the `scale`, where the better part of certain charts is. First, the `yAxes: [ { } ]`. Inside it, simply add one `display: true` - nothing happens, but you will see later why we did it. 
 
 Now, still inside the `yAxes`, add the `ticks: {}`, followed by the following configs: 
 
 * `beginAtZero: true,` - this will tell your chart to start a zero, which is often the case, unless your baseline is different;
-* `fontFamily: 'Roboto',` - don’t forget the font’s link the `<head>`;
-* `fontSize: 14,` - it is px; 
+* `fontFamily: 'Roboto',` - don’t forget the font’s link in the `<head>`;
+* `fontSize: 14,` - in pixels; 
 * `fontColor: '#ababab',` - make it gray;
 
-As you can see, the Y axis format numbers are not the best to show the data. There are plenty of ways to use javascript to manipulate that number. We will make something easy, almost prosaic - trick the code to show the same number, but differently.
+As you can see, the Y axis numbers are not the best to show the data, without the commas. There are plenty of ways to use javascript to manipulate that number. We will make something easy, almost prosaic - trick the code to show the same number, but differently.
 
 Lets add a javascript `function` to do that, using the `callback` option:
 
 `callback: function(value) { return value/1000 + ',000' + '$'; },`
 
-What we did here was to divide the original format by 1,000 and then add the zeroes again with a comma, plus the dollar sign - *read the footnote to know why we did this*[^This happens because you cannot input comma in a data that is separated by another comma, as the code will read a different number - for instance: 10,000 would read 10 and 000, not 10000].
-
-Not it looks good. 
+What we did here was to divide the original format by 1,000 and then add the zeroes again with a comma, plus the dollar sign. This happens because you cannot input comma in a data that is separated by another comma, as the code will read a different number - for instance: 10,000 would read 10 and 000, not 10000. Now it looks better.
 
 Your `yAxes` code should be the following: 
 
@@ -255,7 +253,7 @@ This is the code:
 
 Before we finish, lets make sure our chart is responsive, by adding `responsive: true,` before closing the `options` config. 
 
-Finally, lets credit the data and add in the HTML, after the `<canvas>` tag, the source: `<h5>Source: World Bank</h5>`, as well as some basic CSS.
+Finally, lets credit the data in the HTML, after the `<canvas>` tag. Add the source: `<h5>Source: World Bank</h5>`, as well as some basic CSS, to make it look better.
 
 		body {
 		  padding: 0px 20px 10px 30px;

@@ -1,7 +1,7 @@
 # Making a bar chart with ChartJS
 
 
-[ChartJS](http://www.chartjs.org/) is an easy to use, free javascript library to create interactive line and bar charts with very little code[^As most similar tools, it is based in the D3.js library]. It was developed by [several people](https://github.com/chartjs/Chart.js/graphs/contributors).
+[ChartJS](http://www.chartjs.org/) is an easy to use, free javascript library to create interactive line and bar charts with very little code. As most similar tools, it is based in the D3.js library. It was developed by [several people](https://github.com/chartjs/Chart.js/graphs/contributors).
 
 Like [MorrisJS](https://github.com/miguelpaz/jlab/blob/master/morris_charts.md), the advantage of using this library is that you can customize a lot of aspects of your graphic using just one function and a few [well-documented](http://www.chartjs.org/docs/) configuration options.
 
@@ -172,7 +172,7 @@ After the end of your data, when you closed it with a comma, lets add this small
 
 You code will look like this: 
 
-var ctx = document.getElementById("myChart").getContext("2d");
+	  var ctx = document.getElementById("myChart").getContext("2d");
 
 
 		var myChart = new Chart(ctx, {

@@ -1,6 +1,6 @@
 # Working on your data with CSVKit
 
-CSVKit is a nice tool to manipulate, organize, analise and work with data. It is very light and fast, and is designed for people who don’t like working with Excel or GoogleSheets all the time. It is built in the Python programming language.
+CSVKit is a nice tool to manipulate, organize, analise and work with data, using the comma-separated values (csv) format. It is very light and fast. It is built in the Python programming language.
 
 To access it, you will need to use the `command line`. Open the Terminal  in Mac OSX or Command Prompt in Windows for that. 
 
@@ -149,3 +149,17 @@ Now, in case you haven’t noticed, the csv is alphabetical order. If you want y
 
 The `-r` actually means `reverse`. If you want to know all the sorting functionalities, [check this page](https://csvkit.readthedocs.io/en/540/scripts/csvsort.html). 
 
+___
+
+## Converting to other data formats
+
+You can convert data into Excel or to other formats as well with csvkit.
+
+Convert Excel to CSV:
+`in2csv data.xls > data.csv`
+
+Convert JSON to CSV:
+`in2csv data.json > data.csv`
+
+Convert to JSON:
+`csvjson data.csv > data.json`

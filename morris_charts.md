@@ -1,7 +1,7 @@
 # Line chart with Morris.js
 
 
-[Morris.js](http://morrisjs.github.io/morris.js/) is an easy to use, free javascript library to create interactive line and bar charts with very little code[^As most similar tools, it is based in the D3.js library, with dependencies in Raphael.js and JQuery]. It was developed by [Olly Smith](https://twitter.com/olly_smith).
+[Morris.js](http://morrisjs.github.io/morris.js/) is an easy to use, free javascript library to create interactive line and bar charts with very little code. As most similar tools, it is based in the D3.js library, with dependencies in Raphael.js and JQuery. It was developed by [Olly Smith](https://twitter.com/olly_smith).
 
 The advantage of using this library is that you can customize a lot of aspects of your graphic using just one function and a few [well-documented](http://morrisjs.github.io/morris.js/lines.html) configuration options. Binding the data is also pretty easy, using the [json](http://www.json.org/) format.
 
@@ -10,7 +10,7 @@ In this tutorial, you will need to access:
 1. [The example json data](https://raw.githubusercontent.com/miguelpaz/jlab/master/data/example2_country_dates.json)
 2. [The Morris.js library CDN link](http://morrisjs.github.io/morris.js/) - (*this will give access to the code*)
 3. [The configuration options’ page](http://morrisjs.github.io/morris.js/lines.html) (*where you will chose the specs for the graphic*)
-4. And a code editor - preferably an online one where you will see the results in real time. This example will use [JSbin](https://jsbin.com), but you can use [Codepen](http://codepen.io/) our [JSfiddle](https://jsfiddle.net/) as alternatives.
+4. And a code editor - preferably an online one where you will see the results in real time. This example will use [JSbin](https://jsbin.com), but you can use [Codepen](http://codepen.io/) or [JSfiddle](https://jsfiddle.net/) as alternatives.
 
 ___
 

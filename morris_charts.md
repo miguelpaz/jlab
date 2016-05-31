@@ -119,7 +119,7 @@ _Note that the **year** is here recognized as a **number**, not a **string** - s
 
 We will leave the `ykeys` with the `value` field. In the `label` field you can add anything you want, as long as it is in quotes - this will reflect in the *tooltip* of your chart - we will add `'Unemployment rate'`.  
 
-I also recommend you adding this line: `xLabels: ['year'],`. This will avoid that your chart read the months when it renders, leaving on the years in the X axis.
+Also add this line: `xLabels: ['year'],`. This will avoid your chart to read the months when it renders, leaving only the years in the X axis.
 
 So this part of your code will look like this: 
 

@@ -38,7 +38,7 @@ Add the following code inside the `<body>` tag:
 
 			<div id="myfirstchart" style="height: 250px;"></div>
 
-This will actually call (make appear) the chart once we put the javascript in it. We will modify this tag a little bit later, so don’t worry right now about it.
+This will be where the chart will render once we put the javascript in it. We will modify this tag a little bit later, so don’t worry right now about it.
 ___
 
 ## Adding the javascript

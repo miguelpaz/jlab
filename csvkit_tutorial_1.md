@@ -1,6 +1,6 @@
 # Working on your data with CSVKit
 
-CSVKit is a nice tool to manipulate, organize, analise and work with data, using the comma-separated values (csv) format. It is very light and fast. It is built in the Python programming language.
+CSVKit is a nice tool to manipulate, organize, analyze and work with data, using the comma-separated values (csv) format. It is very light and fast. It is built in the Python programming language.
 
 To access it, you will need to use the `command line`. Open the Terminal  in Mac OSX or Command Prompt in Windows for that. 
 

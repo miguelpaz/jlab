@@ -18,7 +18,7 @@ ___
 
 Open JSbin. Notice that there will be some HTML code there already, saving you the trouble of adding some tags. 
 
-Open another tab in your browser and go to the [Morris.js](http://morrisjs.github.io/morris.js/) webpage. Scroll down a little bit to the “Getting started” section and copy and paste the four lines of code in the `<head>` of your [document][you can also put it in the `<body>` tag, but it loads first if it is in the `<head>`]. 
+Open another tab in your browser and go to the [Morris.js](http://morrisjs.github.io/morris.js/) webpage. Scroll down a little bit to the “Getting started” section and copy and paste the four lines of code in the `<head>` of your HTML. You could also put it in the `<body>` tag, but it loads first if it is in the `<head>`. 
 
 Your code will look like this: 
 

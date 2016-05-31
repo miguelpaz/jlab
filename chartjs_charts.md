@@ -166,7 +166,7 @@ ___
 
 ### Customization
 
-After you input your data and added the basic color visuals, there are plenty of more things you could do. But first, you have to add the `options` config. 
+After you input your data and added the basic color visuals, there are plenty of more things you could do. But first, you have to add the `options` config. [You can check all the ChartJS options here](http://www.chartjs.org/docs/#getting-started-global-chart-configuration).
 
 After the end of your data, when you closed it with a comma, lets add this small line of code `options: {}`.
 

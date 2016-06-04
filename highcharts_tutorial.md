@@ -8,7 +8,7 @@ In this tutorial, you will need to access:
 
 1. [The example data](https://github.com/miguelpaz/jlab/blob/master/data/highcharts_example_data.tsv)
 2. Register for a free account in the cloud version of [Highcharts](http://cloud.highcharts.com/)
-___
+
 
 # Inputing the data
 

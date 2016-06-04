@@ -78,10 +78,12 @@ For instance, if your data shows 20 million followers in the upper point and mer
 
 In the “axes” tab, try applying the logarithmic scale to the horizontal axis (nothing will happen in the vertical axis because you are using string in that one). The path will be `Axes -> Horizontal Axis -> Type -> Logarithmic`. You might notice the bottom values have bigger bars now. 
 
-Linear Scale:
+#### Linear Scale:
+
 ![Highcharts - linear](https://github.com/miguelpaz/jlab/blob/master/images/charts_highcharts_linear.png?raw=true)
 
-Log Scale
+#### Log Scale: 
+
 ![Highcharts - log](https://github.com/miguelpaz/jlab/blob/master/images/charts_highcharts_log.png?raw=true)
 
 That all being said, we **won’t** apply the log scale in our example, as we don’t need it: all the values are in million and give a good general look about how dominant a few companies are on social media against others.

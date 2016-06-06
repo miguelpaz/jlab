@@ -1,22 +1,26 @@
-country,region,data,year
-Brazil,South America,11726.8,2014
-China,Asia,7590,2014
-India,Asia,1581.5,2014
-Russia,Europe,12735.9,2014
-South Africa,Africa,6483.9,2014
-United Kingdom,Europe,46297,2014
-United States,North America,54629.5,2014
-Brazil,South America,12071.8,2013
-China,Asia,6991.9,2013
-India,Asia,1455.1,2013
-Russia,Europe,14487.3,2013
-South Africa,Africa,6889.8,2013
-United Kingdom,Europe,42294.9,2013
-United States,North America,52980,2013
-Brazil,South America,12157.3,2012
-China,Asia,6264.6,2012
-India,Asia,1449.7,2012
-Russia,Europe,14078.8,2012
-South Africa,Africa,7592.2,2012
-United Kingdom,Europe,41294.5,2012
-United States,North America,51456.7,2012
+country,year,source
+Argentina,2010,Pew Research Center - Human Rights Campaign
+Belgium,2013,Pew Research Center - Human Rights Campaign
+Brazil,2003,Pew Research Center - Human Rights Campaign
+United Kingdom,2005,Pew Research Center - Human Rights Campaign
+Canada,2012,Pew Research Center - Human Rights Campaign
+Denmark,2014,Pew Research Center - Human Rights Campaign
+Finland,2005,Pew Research Center - Human Rights Campaign
+France,2015,Pew Research Center - Human Rights Campaign
+Greenland,2015,Pew Research Center - Human Rights Campaign
+Iceland,2013,Pew Research Center - Human Rights Campaign
+Ireland,2012,Pew Research Center - Human Rights Campaign
+Luxembourg,2000,Pew Research Center - Human Rights Campaign
+Netherlands,2013,Pew Research Center - Human Rights Campaign
+New Zealand,2015,Pew Research Center - Human Rights Campaign
+Norway,2010,Pew Research Center - Human Rights Campaign
+Pitcairn,2014,Pew Research Center - Human Rights Campaign
+Portugal,2009,Pew Research Center - Human Rights Campaign
+United Kingdom,2009,Pew Research Center - Human Rights Campaign
+Spain,2013,Pew Research Center - Human Rights Campaign
+South Africa,2013,Pew Research Center - Human Rights Campaign
+Sweden,,Pew Research Center
+United States,2010,Pew Research Center - Human Rights Campaign
+Uruguay,2009,Pew Research Center - Human Rights Campaign
+United Kingdom,2013,Pew Research Center - Human Rights Campaign
+Mexico,2006,Pew Research Center - Human Rights Campaign

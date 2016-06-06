@@ -1,4 +1,4 @@
-# Handling data in Google Sheets
+# Using formulas for strings in Google Sheets 
 
 Google Sheets is a great tool to work with your data. You can store it, clean it, organize it, manipulate it, analyze it, scrape webpages with it and download it in several formats.
 

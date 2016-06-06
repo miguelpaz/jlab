@@ -1,22 +1,22 @@
 country,region,data,year
 Brazil,South America,11726.8,2014
-China,Asia,7590.0,2014
+China,Asia,7590,2014
 India,Asia,1581.5,2014
-Russia,Eurasia,12735.9,2014
+Russia,Europe,12735.9,2014
 South Africa,Africa,6483.9,2014
-United Kingdom,Europe,46297.0,2014
+United Kingdom,Europe,46297,2014
 United States,North America,54629.5,2014
 Brazil,South America,12071.8,2013
 China,Asia,6991.9,2013
 India,Asia,1455.1,2013
-Russia,Eurasia,14487.3,2013
+Russia,Europe,14487.3,2013
 South Africa,Africa,6889.8,2013
 United Kingdom,Europe,42294.9,2013
-United States,North America,52980.0,2013
+United States,North America,52980,2013
 Brazil,South America,12157.3,2012
 China,Asia,6264.6,2012
 India,Asia,1449.7,2012
-Russia,Eurasia,14078.8,2012
+Russia,Europe,14078.8,2012
 South Africa,Africa,7592.2,2012
 United Kingdom,Europe,41294.5,2012
 United States,North America,51456.7,2012

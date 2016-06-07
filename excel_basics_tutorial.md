@@ -36,6 +36,7 @@ Hello, my name is John Doe, I am 40 years old, I am a male, I have blonde hair, 
 
 **Example:**
 
+![basic table](https://github.com/miguelpaz/jlab/blob/master/images/excel_basics_headers.png)
 
 
 **Note about columns, rows and cells:** A spreadsheet is made of columns and rows. Columns are identified with letters (A to Z) and rows are numbered (from 1 to...). The intersection of a column and a row is a cell. Every cell in a spreadsheet has its own identifier made of a `column letter + row number`. The upper left first cell of a spreadsheet, for example, is `column A + row 1 = cell A1`, the next is `B1`, `C1`, etc. Following the logic, the cells in the row below are `A2`, `B2`, `C2`, etc.  If you are ever lost, select a cell and look at the upper left side of your spreadsheet for a box with it:

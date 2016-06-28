@@ -82,8 +82,6 @@ When you are done doing this, add a *Title* in the `Add Element` option, and it 
 
 Add the source of the data and go ahead to publish and share it!
 
-<iframe width="100%" height="520" frameborder="0" src="https://voltdatalab.cartodb.com/viz/e0271dce-3cd3-11e6-aa63-0e3a376473ab/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
 ## Be a Pro
 
 Try making a *heatmap* or customizing the *tooltips* with the `Infowindow Change HTML` functionality. 

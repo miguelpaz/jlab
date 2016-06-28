@@ -1,4 +1,3 @@
-
 # Making a chart in CartoDB using geolocation data 
 
 Making charts is one of the coolest things in data journalism. It is really a good way to visualize data about places, that sometimes it just won’t fit a normal type of chart. 
@@ -80,7 +79,11 @@ There are several other customizations you can do to display your information.
 
 When you are done doing this, add a *Title* in the `Add Element` option, and it will give you the dataset title. In the `options` button in the bottom, you can make it a fixed title bar. 
 
-Add the source of the data and go ahead to publish and share it!
+Add the source of the data and go ahead to publish and share it! The result will be something like this:
+
+![](https://github.com/miguelpaz/jlab/blob/master/images/map_cartodb_advanced_7.png?raw=true)
+
+
 
 ## Be a Pro
 

@@ -6,7 +6,7 @@ Making charts is one of the coolest things in data journalism. It is really a go
 
 However, there are a few tricks in both better representing your data and making your map look good. 
 
-This tutorial will teach how to use addresses and geolocation with CartoDB, visualizing data the best way you se fit. 
+This tutorial will teach how to use addresses and geolocation with CartoDB, visualizing data the best way you see fit. 
 
 For this tutorial you will need: 
 

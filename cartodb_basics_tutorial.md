@@ -1,4 +1,4 @@
-# Making a map in CartoDB without geolocation data 
+# Making a map in Carto without geolocation data 
 
 Making maps is one of the coolest things in data journalism. It is really a good way to visualize data about places, geographic patterns, show change over time and obviosuly when a story is completely based on geography.
 

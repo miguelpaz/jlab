@@ -91,9 +91,11 @@ To add a source or annotation items, go to `Add element -> Add text item`. In th
 
 Now we are settled. Click export image or publish your map!
 
-It should look like this:
+It should look something like this:
 
 ![Carto - Final](https://github.com/miguelpaz/jlab/blob/master/images/map_cartodb_basic_finalmap.png?raw=true)
+
+Here is a [live link as well](https://miguelpaz.carto.com/viz/089e3328-4acb-11e6-b760-0ee66e2c9693/public_map).
 
 ## Be a pro
 

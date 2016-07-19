@@ -15,7 +15,7 @@ This brief tutorial will teach how to use the most basic Carto tools to create a
 You will need: 
 
 1. [This example dataset](https://raw.githubusercontent.com/miguelpaz/jlab/master/data/cartodb_example_1_countries.csv)
-2. An account in [CartoDB](https://miguelpaz.carto.com)
+2. An account in [Carto](https://miguelpaz.carto.com)
 3. Bookmark the [Carto Editor](https://carto.com/docs/carto-editor/) documentation. Includes every detail about working with Carto maps.
 
 ___
@@ -101,3 +101,9 @@ Here is a [live link as well](https://miguelpaz.carto.com/viz/089e3328-4acb-11e6
 ## Be a pro
 
 Change the custom colors in the *CartoCSS editor* tab, add interactivity functionalities, publish the map and share the live link. 
+
+
+#### How you can contribute 
+
+*Do you have suggestions on how to improve this tutorial? Are there any broken links, typos or something else not working? You can contribute by opening a new issue.* 
+

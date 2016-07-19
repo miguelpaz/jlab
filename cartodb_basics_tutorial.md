@@ -17,7 +17,9 @@ You will need:
 1. [This example dataset](https://raw.githubusercontent.com/miguelpaz/jlab/master/data/cartodb_example_1_countries.csv)
 2. An account in [CartoDB](https://miguelpaz.carto.com)
 
-> **TIP**: Bookmark the [Carto Editor](https://carto.com/docs/carto-editor/) documentation. Includes all details about working with Carto maps.
+> **TIP**: Bookmark the [Carto Editor](https://carto.com/docs/carto-editor/) documentation. Includes every detail about working with Carto maps.
+
+
 ___
 
 ## Using the dataset

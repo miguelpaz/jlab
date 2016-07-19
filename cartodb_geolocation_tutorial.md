@@ -89,7 +89,8 @@ Add the source of the data and go ahead to publish and share it! The result will
 
 Try making a *heatmap* or customizing the *tooltips* with the `Infowindow Change HTML` functionality. 
 
+___
 
-### How you can contribute 
+#### How you can contribute 
 
-Do you have suggestions on how to improve this tutorial? Are there any broken links, typos or something not working? You can contribute by opening a new issue. 
+*Do you have suggestions on how to improve this tutorial? Are there any broken links, typos or something not working? You can contribute by opening a new issue.* 

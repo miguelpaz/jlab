@@ -1,4 +1,4 @@
-# Making a chart in Carto using geolocation data 
+# Making a map in Carto using geolocation data 
 
 Making charts is one of the coolest things in data journalism. It is really a good way to visualize data about places, that sometimes it just won’t fit a normal type of chart. 
 

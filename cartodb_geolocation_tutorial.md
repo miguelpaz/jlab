@@ -1,17 +1,17 @@
-# Making a chart in CartoDB using geolocation data 
+# Making a chart in Carto using geolocation data 
 
 Making charts is one of the coolest things in data journalism. It is really a good way to visualize data about places, that sometimes it just won’t fit a normal type of chart. 
 
-[CartoDB](https://voltdatalab.cartodb.com) is one of the best tools out there to do that. You can make interactive maps, download static image files and customize colors and points. And it is free if you are OK with using their more basic resources (which are good by most standards).
+[Carto](https://voltdatalab.cartodb.com) is one of the best tools out there to do that. You can make interactive maps, download static image files and customize colors and points. And it is free if you are OK with using their more basic resources (which are good by most standards).
 
 However, there are a few tricks in both better representing your data and making your map look good. 
 
-This tutorial will teach how to use addresses and geolocation with CartoDB, visualizing data the best way you see fit. 
+This tutorial will teach how to use addresses and geolocation with Carto, visualizing data the best way you see fit. 
 
 For this tutorial you will need: 
 
 1. [This dataset about mass shootings in the US](https://github.com/miguelpaz/jlab/blob/master/data/cartodb_mass_shootings_US.csv)
-2. An account in [CartoDB](https://voltdatalab.cartodb.com)
+2. An account in [Carto](https://miguelpaz.carto.com)
 
 ___
 
@@ -21,9 +21,9 @@ The dataset we will use contains information about mass shootings in the United 
 
 For this tutorial, we have added the Address column and the LAT/LONG columns. 
 
-Differently from the other CartoDB [tutorial without geolocation data](https://github.com/miguelpaz/jlab/blob/master/cartodb_basics_tutorial.md), this dataset has several information that can be displayed in many ways. We will see the best ways to see it. 
+Differently from the other Carto [tutorial without geolocation data](https://github.com/miguelpaz/jlab/blob/master/cartodb_basics_tutorial.md), this dataset has several information that can be displayed in many ways. We will see the best ways to see it. 
 
-Load the data in your CartoDB.
+Load the data in your Carto.
 
 After you upload the .csv file, you will be brought to the `Map View` screen of your map, and you likely see orange dots, displaying the LAT/LONG information of your dataset. 
 
@@ -35,7 +35,7 @@ Give a name to your map in the `Untitled` area in the upper left corner and that
 
 Notice that the the `geometry` field in the table displays the information you pointed out in the `LATITUDE` and `LONGITUDE` columns.
 
-> PRO TIP: In case you only have the address name, not the LAT/LONG information, CartoDB can do that for you for free up to 100 columns, but for a price after that. If you don’t want to pay anything, [this awesome website](http://www.findlatitudeandlongitude.com/batch-geocode) gets that info in batch for you, or you can go to [http://www.latlong.net](http://www.latlong.net/) and get the information one at a time. 
+> PRO TIP: In case you only have the address name, not the LAT/LONG information, Carto can do that for you for free up to 100 columns, but for a price after that. If you don’t want to pay anything, [this awesome website](http://www.findlatitudeandlongitude.com/batch-geocode) gets that info in batch for you, or you can go to [http://www.latlong.net](http://www.latlong.net/) and get the information one at a time. 
 
 You can georeference your dataset in may ways, using city names, IP addresses, administrative regions, latitude and longitude data and city names. Since we have the actual addresses from where the shootings occurred, it will be easy to georeference our dataset. 
 
@@ -45,13 +45,13 @@ Note that there is a `Short_Address` field, this is just in case you want to dis
 
 Back to the “Map View”, you will see your orange dots. It is an accurate visualization by itself, but it could be better. In order for us to have a clear understanding of the information, it would be nice to have the state lines well delimited. To do that, we need what it is called **Polygons**.
 
-Luckily, CartoDB gets information like this for free based only in the state name. But, since our dataset is already being used to show the dots in the map, we need to create a new layer.
+Luckily, Carto gets information like this for free based only in the state name. But, since our dataset is already being used to show the dots in the map, we need to create a new layer.
 
 To create a new layer, you need to click in the “+” sign located on the vertical tab in the right side of the screen, where the arrow is showing in the picture below: 
 
 ![](https://github.com/miguelpaz/jlab/blob/master/images/map_cartodb_advanced_3_arrow.png?raw=true)
 
-We could import state borders information from a .csv file or other formats, but, conveniently, CartoDB has a nice community that makes this kind of polygon data available for free. 
+We could import state borders information from a .csv file or other formats, but, conveniently, Carto has a nice community that makes this kind of polygon data available for free. 
 
 Instead of clicking `Connect Dataset`, you can go to the `Data Library` option and look for the “USA States” data. Then, you can rearrange the order of the datasets by just dragging the right-sided column in the map view.
 

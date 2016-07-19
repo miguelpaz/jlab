@@ -1,30 +1,32 @@
 
-# Making an animated torque chart in CartoDB 
+# Making an animated torque chart in Carto 
 
 Making charts is one of the coolest things in data journalism. It is really a good way to visualize data about places, that sometimes it just won’t fit a normal type of chart. 
 
-[CartoDB](https://voltdatalab.cartodb.com) is one of the best tools out there to do that. You can make interactive maps, download static image files and customize colors and points. And it is free if you are OK with using their more basic resources (which are good by most standards).
+[Carto](https://voltdatalab.cartodb.com) is one of the best tools out there to do that. You can make interactive maps, download static image files and customize colors and points. And it is free if you are OK with using their more basic resources (which are good by most standards).
 
 Torque is a resource that animates your map when using time series data.
 
-This tutorial will teach how to use addresses and geolocation with CartoDB to animate your graphic. 
+This tutorial will teach how to use addresses and geolocation with Carto to animate your graphic. 
 
 For this tutorial you will need: 
 
 1. [This dataset about mass shootings in the US](https://github.com/miguelpaz/jlab/blob/master/data/cartodb_mass_shootings_US.csv)
-2. An account in [CartoDB](https://voltdatalab.cartodb.com)
+2. An account in [Carto](https://voltdatalab.cartodb.com)
 
 ___
 
 ## Understanding the dataset
 
-The dataset we will use contains information about mass shootings in the United States during 2016, and it has nine columns: date, state, city, short address designation, address, latitude, longitude, people killed and people injured. The data come from the [Gun Violence Archive](http://www.gunviolencearchive.org/reports/mass-shooting).
+The dataset we will use contains information about mass shootings in the United States during 2016, and it has nine columns: 1. Date 2. State 3. City 4. Short address designation 5. Address 6. Latitude 7. Longitude 8. People killed and 9. People injured. The data comes from the [Gun Violence Archive](http://www.gunviolencearchive.org/reports/mass-shooting).
 
 For this tutorial, we have added the Address column and the LAT/LONG columns. 
 
-Differently from the other CartoDB tutorials [1](https://github.com/miguelpaz/jlab/blob/master/cartodb_basics_tutorial.md) and [2](https://github.com/miguelpaz/jlab/blob/master/cartodb_geolocation_tutorial.md), we will now create and animated map.
+Our goal will be to create an animated map. 
 
-Load the data in your CartoDB.
+> **TIP:** If this is your first time learning about using Carto, I recommend you to to start with the [Carto Basics Tutorial](https://github.com/miguelpaz/jlab/blob/master/cartodb_basics_tutorial.md) and then follow with [How to create a Carto map with geolocation data](https://github.com/miguelpaz/jlab/blob/master/cartodb_geolocation_tutorial.md). It wont take you more than 1 hour to create 2 maps using the step by step instructions.
+
+Load the data in your Carto.
 
 After you upload the .csv file, you will be brought to the `Map View` screen of your map, and you likely see orange dots, displaying the LAT/LONG information of your dataset. 
 
@@ -32,15 +34,15 @@ After you upload the .csv file, you will be brought to the `Map View` screen of 
 
 Give a name to your map in the `Untitled` area in the upper left corner and that go to the `Data View`. 
 
-Notice that the the `geometry` field in the table displays the information you pointed out in the `LATITUDE` and `LONGITUDE` columns.
+Notice that the `geometry` field in the table displays the information you pointed out in the `LATITUDE` and `LONGITUDE` columns.
 
-> PRO TIP: In case you only have the address name, not the LAT/LONG information, CartoDB can do that for you for free up to 100 columns, but for a price after that. If you don’t want to pay anything, [this awesome website](http://www.findlatitudeandlongitude.com/batch-geocode) gets that info in batch for you, or you can go to [http://www.latlong.net](http://www.latlong.net/) and get the information one at a time. 
+> **TIP:** In case you only have the address and not the LAT/LONG information, Carto can retrieve the information for you for free for up to 100 columns. For anything bigger than that, you will have to pay. If the number of addresses is not too large you can split the file into batches of 100 and then ensamble it all back together. If you don’t want to pay anything, [this awesome website](http://www.findlatitudeandlongitude.com/batch-geocode) will get the LAT/LONG in a batch for you. [This site](http://stevemorse.org/jcal/latlon.php) by Stephen P. Morse will also help you with batch geocoding (it also has a nice FAQ about address data). You can go also to [http://www.latlong.net](http://www.latlong.net/) to get the LAT/LONG information one address at a time.
 
-Your dataset will probably already be georreferenced. But, more importantly, you will need to change the designation of the dates in your dataset, by going to the `Incident_Date` column and changing the data type to “Date”. CartoDB will do it for you automatically.   
+Your dataset will probably already be georreferenced. But, more importantly, you will need to change the designation of the dates in your dataset, by going to the `Incident_Date` column and changing the data type to “Date”. Carto will do it for you automatically.   
 
 ![](https://github.com/miguelpaz/jlab/blob/master/images/cartodb_data%20type.png?raw=true)
 
-This is very important, of course, because it will animate your map accordingly, based on the dates you have in the dataset. If the CartoDB tool doesn’t recognize a date there, it will choose other data, if any, to serve as time reference. 
+This is very important because it will animate your map based on the dates over time you have in the dataset. If the Carto tool doesn’t recognize a date there, it will choose other data, if any, to serve as time reference. 
 
 ## Visualizing the information
 
@@ -62,3 +64,6 @@ This is the general outlook of the map:
 
 Try making a *heatmap* with cumulative effects over 30 seconds, with even more trails. 
 
+#### How you can contribute 
+
+*Do you have suggestions on how to improve this tutorial? Are there any broken links, typos or something else not working? You can contribute by opening a new issue.* 

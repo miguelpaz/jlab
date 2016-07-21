@@ -7,10 +7,9 @@ Code Academy [Glossary of commonly used commands](https://www.codecademy.com/art
 ## How Commands are structured
 Commands have utilities, flags and arguments. Depending on which command you use you may not have to use flags or arguments.
 
-A command: `ls` -l ~/Desktop
+A command: `ls` `-l` `~/Desktop`
 
 | Utility | Flag | Argument |
 | --- | --- | --- |
-| `ls` | -l  | ~/Desktop |
-
+| `ls` | `-l`  | `~/Desktop` |
 

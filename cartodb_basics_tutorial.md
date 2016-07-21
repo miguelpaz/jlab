@@ -100,7 +100,7 @@ Here is a [live link as well](https://miguelpaz.carto.com/viz/089e3328-4acb-11e6
 
 ## Be a pro
 
-Change the custom colors in the *CartoCSS editor* tab, add interactivity functionalities, publish the map and share the live link. 
+Change the custom colors in the [*CartoCSS editor*](https://carto.com/docs/carto-editor/maps/#cartocss) tab, add interactivity functionalities, publish the map and share the live link. 
 
 
 #### How you can contribute 

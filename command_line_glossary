@@ -1,0 +1,16 @@
+# List of Commands 
+
+Summary of most used commands and useful explanations from [Getting to Know the Command Line](https://www.davidbaumgold.com/tutorials/command-line/#what-is-the-command-line?),
+[Survival guide for Unix newbies](http://matt.might.net/articles/basic-unix/), [The Command Line Crash Course](http://cli.learncodethehardway.org/book/),
+Code Academy [Glossary of commonly used commands](https://www.codecademy.com/articles/command-line-commands)
+
+## How Commands are structured
+Commands have utilities, flags and arguments. Depending on which command you use you may not have to use flags or arguments.
+
+A command: `ls` -l ~/Desktop
+
+| Utility | Flag | Argument |
+| --- | --- | --- |
+| `ls` | -l  | ~/Desktop |
+
+

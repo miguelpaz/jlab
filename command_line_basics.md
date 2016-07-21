@@ -1,23 +1,22 @@
 # How to get started using the Command Line
 
-Before the <a href="https://en.wikipedia.org/wiki/Graphical_user_interface" targe='_blank">graphical user interface</a> we are so accustomed to use in our computers existed, the way of interacting with a computer was to use the Command Line to **command a program to do what you want it to do by writing your orders <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank">"in the form of successive lines of text"</a> or... Command lines :) 
+Before the [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface" targe='_blank) we are so accustomed to use in our computers existed, the way of interacting with a computer was to use the Command Line to **command a program to do what you want it to do by writing your orders <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank">"in the form of successive lines of text"</a> or... Command lines :) 
 
-Ok, I know what you are thinking: *Why on earh would I want to learn to use this obscure old school thing if I can just point and click stuff in my computer to open folder, files, move them around, save them, rename them or delet them?* 
+Ok, I know what you are thinking: *Why on earth would I want to learn to use this obscure old school thing if I can just point and click stuff in my computer to open folder, files, move them around, save them, rename them or delet them?* 
 
-Well, it turns out that the Command Line - * formally known as Command Line Interface or Command Language Interpeter (CLI)* - is more ubiquitous and present than ever if you work with information and software.
+Well, it turns out that the Command Line - *formally known as Command Line Interface or Command Language Interpeter (CLI)* - is more ubiquitous and present than ever if you work with information and software **(that's you)**:
 - It allows you to navigate within directories, folders and files in your computer.
 - It is a tool to analyze, clean and organize data.
 - A great way to add more power and speed to your research or reporting skills. 
 - Its very efficient when you have to process text data and work with it. Specially if your data file is very big (talking about GBs here).
 - It is what you have to use to install and setup applications, run local servers, and many times the way to run code to make charts, maps and more.
+- Bottomline: Is efficient, useful, is text, it works with files you always use (.csv, .txt) and it's **free**. 
 
-Bottomline: Is efficient, useful, is text, it works with files you always use like (.csv, .txt, .tsv) and its **free**.
+It may seem confusing at first but when you get the hang of it, it's like you have superpowers in the tip of your fingers. 
 
-### Ready, set, go
+## Open the Terminal
 
-Although it may seem confusing at first, the command line is widely used by developers and more savvy coders to enhance productivity and to run applications. When you really get the hang of it, you can be really faster than navigating around folders in Finder (OSX) or Windows.
-
-The tools of command line are Command Prompt or PowerShell, ain Windows, and Terminal in Linux and Mac. 
+The tools of command line are Terminal in Linux and Mac; and Command Prompt or PowerShell, in Windows.  
 
 This tutorial will include the most basic commands, and, if you want a more complete and technical tutorial, access [this tutorial](https://www.davidbaumgold.com/tutorials/command-line/), by David Baumgold. He called the command line “the ultimate seat of power on your computer”. 
 
@@ -100,4 +99,3 @@ When you want to clear your command line of all the messy code, use the `clear` 
 ___
 
 For the Windows reference and some other tricks, [visit Master Ruby website](https://masteruby.github.io/productivity-booster/2014/03/26/top-ten-commands-in-terminal-you-will-use-everyday.html#.V1Osi5MrLdT). You can also dig deeper in the [Code Academy course](https://www.codecademy.com/learn/learn-the-command-line), if that is your thing.
-
